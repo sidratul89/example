@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="ie-edge">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<title>Menu Card</title>
+</head>
+<style>
+	body {font-family: "Times New Roman", Georgia, Serif;}
+	h1, h2, h3, h4, h5, h6 {
+  		font-family: "Playfair Display";
+ 		 letter-spacing: 5px;
+	}
+	ul{
+		margin: 0;
+		border: 1px solid white;
+		box-shadow:  0 8px 16px 0 rgba(0, 0, 0, 0.2);
+		padding: 0;
+		background: white;
+		position: fixed;
+		top: 0;
+		right: 0;
+		left: 0;
+		
+	}
+	ul li{
+		list-style-type: none;
+	}
+	ul li a{
+		text-decoration: none;
+		padding: 12px 16px;
+		letter-spacing: 2px;
+		margin-left: 5px;
+		margin-bottom: 5px;
+	}
+	ul li a:hover{
+		background: lightgrey;
+	}
+	a.left-button{
+		float: left;
+		margin-left: 10px;
+	}
+	a.right-button{
+		float: right;
+		margin-right: 10px;
+	}
+	.burger{
+		width: 1600px;
+        height: 800px;
+        max-width: 1600px;
+        min-width: 500px;
+	}
+	.burger img{
+        width: 100%;
+        background-repeat: no-repeat;
+    }
+    .hamburger{
+        color: grey;
+        margin-left: 10px;
+        position: relative;
+        bottom: 50px;
+        left: 10px;
+        letter-spacing: 5px;
+    }
+    .left-area{
+        margin-left: 100px;
+        margin-top: 25px;
+        float: left;
+        width: 48%;
+        margin-right: -150px;
+    }
+    .tablesetting2{
+        width: 80%;
+        border-radius: 5px;
+    }
+    header{
+        min-width: 1100px;
+    }
+    .right-area{
+        float: right;
+        width: 45%;
+        margin-top: 50px;
+        margin-right: 50px;
+    }
+    .large{
+        font-size: 20px;
+    }
+    .center1{
+        margin-left: 80px;
+    }
+    .center{
+        margin-left: 100px;
+    }
+    span{
+        background: lightgrey;
+        padding: 5px;
+    }
+    .grey-text{
+        color: #757575;
+        font-size: 18px;
+    }
+    .center2{
+        margin-top: 60%;
+        margin-left: 245px;
+        padding: 0;
+        margin-right: 800px;
+    }
+    .text-grey{
+        color: #757575;
+    }
+    .left-about{
+        margin-left: 80px;
+        padding: 0;
+        margin-right: 700px;
+        float: left;
+        width: 40%;
+    }
+    .right-menu{
+        float: right;
+        width: 50%;
+        margin-bottom: 100px;
+        padding: 0;
+        text-align: right;
+    }
+    .right-image{
+        width: 80%;
+        margin-top: -700px;
+        margin-right: 100px;
+        border-radius: 5px;
+    }
+    header{
+        min-width: 1100px;
+    }
+    .form-part{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .blue-text{
+        color: #607d8b;
+        font-size: 18px;
+    }
+    .form-section input{
+        padding: 16px;
+        border: none;
+        border-bottom: 1px solid grey;
+        margin: 0;
+        width: 100%;
+    }
+    button{
+        background: #f1f1f1;
+        padding: 8px 12px;
+        border: none;
+        letter-spacing: 1px;
+    }
+    footer{
+        text-align: center;
+        background: #f1f1f1;
+        padding: 32px;
+    }
+    .hover:hover{
+        color: green;
+    }
+    @media screen and (max-width: 480px){
+    	.right-area{
+    		width: 100%;
+    		float: left;
+    		margin-left: 430px;
+    		margin-bottom: px;
+    	}
+    	.left-area{
+    		width: 100%;
+    		margin-right: -580px;
+    		margin-left: 7px;
+    	}
+    	.right-image{
+    		width: 150%;
+    		float: left;
+    		margin-left: 350px;
+    		margin-top: -600px;
+    	}
+    }
+</style>
+<body>
+	<!-- Start Header Area -->
+
+	<div class="menu-bar" id="home">
+		<ul>
+			<li><a href="#home"  class="left-button">Gourment au catering</a></li>
+			<li><a href="#contact" class="right-button">Contact</a></li>
+			<li><a href="#menu" class="right-button">Menu</a></li>
+			<li><a href="#about" class="right-button">About</a></li>
+		<ul> 
+	</div>		
+    <!-- End Header Area -->
+
+        <div class="burger">
+            <img src="burger.jpg" alt="Hamburger Catering" class="image">
+        </div>    
+            <div class="hamburger">
+            <h1 class="hamburger">Le Catering</h1>
+        </div>
+            
+    <!-- Start Middle Area--> <div id="about"></div>
+        <div class="container"><br>
+        <div class="left-area"> 
+            <img src="food1.jpg" class="tablesetting2">
+        </div>
+        <div class="right-area">
+            <h1 class="center1">About Catering</h1><br>
+            <h5 class="center">Tradition since 1889</h5>
+            <p class="large">The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.We only use <span>seasonal</span> ingredients.</p>
+
+            <p class="grey-text">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        </div>
+    	<br>
+    <!-- End Middle Area-->
+
+
+
+
+    <br><br>
+    <header class="left-menu-section"> <br> 
+            <h1 class="center2" id="menu">Our Menu</h1> <br>
+        <div class="left-about">    
+            <h4>Bread Basket</h4>
+            <p class="text-grey">Assortment of fresh baked fruit breads and muffins 5.50</p><br>
+
+            <h4>Honey Almond Granola with Fruits</h4>
+            <p class="text-grey">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p><br>
+
+            <h4>Belgian Waffle</h4>
+            <p class="text-grey">Vanilla flavored batter with malted flour 7.50</p><br>
+
+            <h4>Scrambled eggs</h4>
+            <p class="text-grey">Scrambled eggs, roasted red pepper and garlic, with green onions 7.5</p><br>
+
+            <h4>Blueberry Pancakes</h4>
+            <p class="text-grey">With syrup, butter and lots of berries 8.50</p><br>
+
+        </div>
+    </header>
+
+    <div class="right-menu">
+        <img src="tablesetting.jpg" class="right-image">
+    </div> <br><br><br>
+    <!-- Start Contact Area-->
+    <br><br><br>
+    <div class="form-part" id="contact">
+    <div class="contact-part">
+    <div class="contact1">
+        <h1 class="contact">Contact</h1> <br>
+        <p>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. Hesitate to contact us.</p>
+        <p class="blue-text"><b>Catering Service, 42nd Living St, 43043 New York, NY</b></p>
+        <p>You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message here:</p>
+    </div>
+        <form action="/action_page.php" target="_blank" class="form-section">
+        <p><input type="text" placeholder="Name" name="Name"></p>
+        <p><input type="number" placeholder="How many people" name="people"></p>
+        <p><input type="datetime-local" placeholder="Date and Time" required name="date" value="2020-11-16T20:00"></p>
+        <p><input type="text" name="message" placeholder="Message \ Special requirements"></p><br><br>
+        <button type="submit">SEND MESSEGE</button>
+        </form>
+    </div>
+    </div>
+    <br><br><br>
+    <!--End Contact Area-->
+    <footer>
+    <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="hover">w3.css</a>
+    </p>
+    </footer>
+
+</body>
+</html>    
+
+
